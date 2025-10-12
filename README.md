@@ -2,17 +2,16 @@
 
 ## 🗂️ Estructura del proyecto
 Organizador-de-archivos/
-│
-├── build/ ⚙️ Archivos generados por PyInstaller
-├── dist/ ⚙️ Ejecutables finales
+├── build/                 # Archivos generados por PyInstaller
+├── dist/                  # Ejecutables finales (binarios)
 ├── organizador/
-│ ├── src/
-│ │ ├── organizador.bat 🖥 Script para Windows
-│ │ ├── organizador.py 💻 Código principal
-│ │ └── organizador.spec 🛠 Configuración de PyInstaller
-├── LICENSE ⚖️ (opcional, ejemplo: MIT License)
-├── requirements.txt 📦 Dependencias del proyecto
-└── README.md 📘 Documentación y explicación
+│   └── src/
+│       └── organizador.py # Código principal del organizador
+├── requirements.txt       # Dependencias del proyecto
+├── organizador.spec       # Configuración de PyInstaller
+├── organizador.bat        # Script de ejecución para Windows
+├── LICENSE                # Licencia (e.g., MIT)
+└── README.md              # Documentación y explicación (este archivo)
 
 
 ## 🧩 Descripción del proyecto
