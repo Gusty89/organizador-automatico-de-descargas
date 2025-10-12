@@ -1,14 +1,14 @@
 # 📁 Organizador-de-archivos
 
 ## 🗂️ Estructura del proyecto
-organizador/src/organizador.py	Contiene el código fuente principal del organizador de archivos.
-requirements.txt	Lista de dependencias de Python necesarias (bibliotecas).
-build/	Carpeta temporal generada por PyInstaller durante la compilación.
-dist/	Contiene los ejecutables finales listos para ser distribuidos.
-organizador.spec	Archivo de configuración usado por PyInstaller para crear el ejecutable.
-organizador.bat	Script simple para ejecutar el programa en sistemas Windows.
-LICENSE	Información sobre la licencia del proyecto (opcional, ej. MIT).
-README.md	Documentación principal del proyecto (este archivo).
+- organizador/src/organizador.py	Contiene el código fuente principal del organizador de archivos.
+- requirements.txt	Lista de dependencias de Python necesarias (bibliotecas).
+- build/	Carpeta temporal generada por PyInstaller durante la compilación.
+- dist/	Contiene los ejecutables finales listos para ser distribuidos.
+- organizador.spec	Archivo de configuración usado por PyInstaller para crear el ejecutable.
+- organizador.bat	Script simple para ejecutar el programa en sistemas Windows.
+- LICENSE	Información sobre la licencia del proyecto (opcional, ej. MIT).
+- README.md	Documentación principal del proyecto (este archivo).
 
 
 ## 🧩 Descripción del proyecto
