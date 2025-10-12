@@ -1,32 +1,44 @@
-# Estructura del proyecto 📁 Organizador-de-archivos
+# 📁 Organizador-de-archivos
 
-📁 Organizador-de-archivos
-📂 build
-📂 dist
-📂 organizador
-📂 src
-├── 📜 organizador.bat
-├── 📜 organizador.py 💻 Código principal
-└── 📜 organizador.spec
-⚖️ LICENSE ⚖️ (opcional, por ejemplo MIT License)
-📦 requirements.txt 📦 Dependencias (librerías necesarias)
-📜 README.md 📘 Explicación del proyecto
+## 🗂️ Estructura del proyecto
+Organizador-de-archivos/
+│
+├── build/ ⚙️ Archivos generados por PyInstaller
+├── dist/ ⚙️ Ejecutables finales
+├── organizador/
+│ ├── src/
+│ │ ├── organizador.bat 🖥 Script para Windows
+│ │ ├── organizador.py 💻 Código principal
+│ │ └── organizador.spec 🛠 Configuración de PyInstaller
+├── LICENSE ⚖️ (opcional, ejemplo: MIT License)
+├── requirements.txt 📦 Dependencias del proyecto
+└── README.md 📘 Documentación y explicación
 
 
-# 🧩 Organizador Automático de Descargas
+## 🧩 Descripción del proyecto
+**Organizador Automático de Descargas**  
+Este proyecto **clasifica automáticamente los archivos descargados** en carpetas organizadas por tipo:
 
-Este proyecto clasifica automáticamente los archivos descargados en carpetas organizadas por tipo (documentos, imágenes, vídeos, etc.), vigilando en tiempo real la carpeta de descargas.
+- 📄 Documentos (`.pdf`, `.docx`, `.txt`, etc.)
+- 🖼 Imágenes (`.jpg`, `.png`, `.gif`, etc.)
+- 🎥 Vídeos (`.mp4`, `.mkv`, `.avi`, etc.)
+- 🗃 Otros tipos según extensión
+
+Todo esto ocurre **en tiempo real** mientras descargás archivos en tu carpeta de descargas.
 
 ## 🚀 Características
-- Monitoreo en tiempo real con `watchdog`
-- Interfaz gráfica con `Tkinter`
-- Clasificación automática por extensión
-- Evita sobrescribir archivos duplicados
-- Logs en pantalla
+- 👀 **Monitoreo en tiempo real** con `watchdog`
+- 🖼 **Interfaz gráfica** con `Tkinter`
+- 📂 **Clasificación automática por extensión**
+- ❌ **Evita sobrescribir archivos duplicados**
+- 📋 **Logs en pantalla** para seguimiento de acciones
 
-## 🛠️ Instalación
+## 🛠️ Instalación y uso
+
+### 1️⃣ Instalaciones necesarias
 ```bash
 pip install watchdog (Instala la librería watchdog)
 pyinstaller --onefile --windowed organizador.py (Crea el archivo.exe)
 pip install -r requirements.txt (Instala las librerías necesarias)
 python organizador.py (Ejecuta el archivo en la terminal)
+
