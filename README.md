@@ -1,7 +1,6 @@
 # Estructura del proyecto 📁 Organizador-de-archivos
 
-📁 Organizador-de-archivos
-├── 📂 build
+📁 Organizador-de-archivos├── 📂 build
 ├── 📂 dist
 ├── 📂 organizador
 ├── 📂 src
