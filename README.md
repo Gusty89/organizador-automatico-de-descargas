@@ -1,16 +1,16 @@
 # Estructura del proyecto 📁 Organizador-de-archivos
 
 📁 Organizador-de-archivos
-├── 📂 build
-├── 📂 dist
-├── 📂 organizador
-├── 📂 src
-│   ├── 📜 organizador.bat
-│   ├── 📜 organizador.py 💻 Código principal
-│   └── 📜 organizador.spec
-├── ⚖️ LICENSE ⚖️ (opcional, por ejemplo MIT License)
-├── 📦 requirements.txt 📦 Dependencias (librerías necesarias)
-└── 📜 README.md 📘 Explicación del proyecto
+📂 build
+📂 dist
+📂 organizador
+📂 src
+├── 📜 organizador.bat
+├── 📜 organizador.py 💻 Código principal
+└── 📜 organizador.spec
+⚖️ LICENSE ⚖️ (opcional, por ejemplo MIT License)
+📦 requirements.txt 📦 Dependencias (librerías necesarias)
+📜 README.md 📘 Explicación del proyecto
 
 
 # 🧩 Organizador Automático de Descargas
