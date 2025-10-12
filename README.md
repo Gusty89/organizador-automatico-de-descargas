@@ -1,6 +1,7 @@
 # Estructura del proyecto 📁 Organizador-de-archivos
 
-📁 Organizador-de-archivos├── 📂 build
+📁 Organizador-de-archivos
+├── 📂 build
 ├── 📂 dist
 ├── 📂 organizador
 ├── 📂 src
@@ -10,8 +11,6 @@
 ├── ⚖️ LICENSE ⚖️ (opcional, por ejemplo MIT License)
 ├── 📦 requirements.txt 📦 Dependencias (librerías necesarias)
 └── 📜 README.md 📘 Explicación del proyecto
-
-
 
 
 # 🧩 Organizador Automático de Descargas
