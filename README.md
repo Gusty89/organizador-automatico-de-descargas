@@ -1,4 +1,4 @@
-# 📁 Organizador-de-archivos
+# 📁 Organizador-de-archivos (Windows)
 
 ## 🗂️ Estructura del proyecto
 
